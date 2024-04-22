@@ -9,10 +9,10 @@ The implemented solution uses multi-threading and synchronization mechanisms to 
 
 Features
 
-* Multi-threaded simulation: The project simulates multiple philosophers and forks using threads, allowing for concurrent execution of philosopher activities.
-* Concurrency control: The project implements synchronization mechanisms (mutexes) to control access to shared resources (forks) and prevent race conditions.
-* Deadlock prevention: The solution prevents deadlock by ensuring that philosophers can acquire the necessary forks without blocking each other indefinitely.
-* Starvation avoidance: The solution ensures that all philosophers have an equal opportunity to eat.
+* Multi-threaded simulation: The program simulates multiple philosophers and forks using threads, allowing for concurrent execution of philosopher activities.
+* Concurrency control: The program implements synchronization mechanisms (mutexes) to control access to shared resources (forks) and prevent race conditions.
+* Deadlock prevention: The program prevents deadlock by ensuring that philosophers can acquire the necessary forks without blocking each other indefinitely.
+* Starvation avoidance: The program ensures that all philosophers have an equal opportunity to eat.
 
 Usage
 
